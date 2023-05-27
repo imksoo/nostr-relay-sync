@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kirino Minato <kirino.minato@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nostr-fetch-root": "github:jiftechnify/nostr-fetch"
+  }
 }
