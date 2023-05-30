@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "docker build . -t nostr-relay-sync",
+    "dev": "npm run build && docker run --rm -it nostr-relay-sync"
   },
   "author": "Kirino Minato <kirino.minato@gmail.com>",
   "license": "MIT",
