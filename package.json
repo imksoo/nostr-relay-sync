@@ -9,6 +9,11 @@
   "author": "Kirino Minato <kirino.minato@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "nostr-fetch-root": "github:jiftechnify/nostr-fetch"
+    "nostr-fetch-root": "github:jiftechnify/nostr-fetch",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "ts-node": "^10.9.1"
   }
 }
